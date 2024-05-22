@@ -1,0 +1,25 @@
+/* src/App.css */
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.section-a {
+  flex: 1;
+  min-width: 50%;
+  padding: 10px;
+}
+
+.section-b-c {
+  flex: 1;
+  min-width: 50%;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .section-a, .section-b-c {
+      min-width: 100%;
+  }
+}
